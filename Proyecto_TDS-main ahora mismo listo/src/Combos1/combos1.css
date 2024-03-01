@@ -1,0 +1,139 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .ventana-emergente {
+    width: 95%;
+    height: 1800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-radius: 25px, black;
+    margin-left: 25px;
+  }
+  
+  .titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-externo {
+    width: 1400px;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    background-color: pink;
+  }
+  
+  .combo {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.combo::after {
+    content: '';
+    display: block;
+    width: 99%;
+    height: 5px;
+    background-color: black;
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-size: 44px;
+    margin: 0;
+    text-align: center;
+  }
+  
+h2{
+    border-radius: 15px;
+    color: red;
+    text-align: left;
+  }
+
+  .imagen-descripcion1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagen-descripcion1 img {
+    width: 450px;
+    height: 350px;
+    margin-right: 10px;
+  }
+  
+  .descripcion-imagen {
+    flex: 1;
+  }
+  
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .tex {
+    margin: 0;
+  }
+  
+  .input-cantidad {
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 105px;
+    margin-bottom: 25px;
+  }
+  
+  .can {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .botones {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  a.btn_atras,
+  a.btn_validar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 249px;
+    border-radius: 15px;
+   text-align: center;
+  }
+  
+  a.btn_atras:hover,
+  a.btn_validar:hover {
+    background-color: #28a745;
+  }
+  
+  a.btn_atras{
+    margin-right: 25px;
+    width: 65px;
+    height: 25px;
+   margin-left: 170px;
+   background-color: green
+  }
+
+  a.btn_validar{
+    height: 25px;
+    width: 65px;
+  }
+
+  .p_combo{
+   font-size: 30px;
+  }

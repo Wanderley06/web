@@ -1,0 +1,63 @@
+
+
+.contenedor{
+    margin-top: 100px;
+    
+}
+
+.contenedor h1{
+    text-align: center;
+    position: relative;
+    right: 140px;
+}
+
+.contenedor2{
+    display: flex;
+     background-repeat: no-repeat;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgba(3,0,0,1) 0%, rgba(21,2,2,1) 18%, rgba(189,22,22,1) 83%, rgba(154,42,42,1) 100%);
+  background-repeat: no-repeat;
+}
+.contenedor-peliculas{
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: start;
+}
+.peliculas{
+    width: 74%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 16%;
+}
+.peliculas img{
+    padding: 12px;
+}
+
+
+
+
+
+
+.proximamente{
+    display: flex;
+    padding-left: 30px;
+    border-left:solid 2px rgb(255, 255, 255);
+    color: aliceblue;
+    
+}
+
+.proximamente img{
+    padding-top: 15px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    width: 25%;
+}
+
+

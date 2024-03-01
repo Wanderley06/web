@@ -1,0 +1,380 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 14px;
+  border-radius: 15px;
+  border: black;
+   
+  }
+  
+  .ventana-emergente1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    max-height: 60%;
+    overflow-y: auto;
+    max-width: 850%;
+  }
+  
+  #check-tickets1 {
+    display: none;
+  }
+  
+  .abrir-ventana1 {
+    cursor: pointer;
+    font-size: 56px;
+    color: white;
+    text-decoration: underline;
+    margin: 20px;
+    text-align: right;
+    background-color: blue;
+    border-radius: 15px;
+   
+  }
+  
+  #check-tickets1:checked ~ .ventana-emergente1 {
+    display: block;
+  }
+  
+  .combo1 {
+    margin-bottom: 20px;
+    /*border-bottom: 2px solid black;*/
+    padding-bottom: 20px;
+  }
+  
+  .imagen-descripcion {
+    display: flex;
+    /*align-items: center;*/
+  }
+  
+  .imagen-descripcion img {
+    width: 240px;
+    height: 245px;
+    margin-right: 20px;
+    /*border-radius: 50%;*/
+    border-radius: 15px;
+  }
+  
+  .descripcion-imagen {
+    text-transform: uppercase;
+
+  }
+  
+  .contenido1 {
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: red;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+  /*h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    
+  }*/
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .input-tickets {
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 15px;
+  }
+  
+  .botones1 {
+    display: flex;
+    justify-content: space-between;
+    /*text-align: center;*/
+    margin: 1px;
+    margin-top: 15px;
+  }
+  
+  /*.cancelar-button,
+  .continuar-button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    
+    margin-top: 15px;
+  }
+  
+  .cancelar-button {
+    background-color: #007BFF;
+    margin-left:20px;
+    text-align: left;
+  }
+  
+  .continuar-button {
+    background-color: #28A745;
+    margin-right: 25px;
+    text-align: right;
+  }*/
+  
+  /*h1 {
+    color: red;
+    text-align: left;
+  }*/
+  
+
+  .tex{
+    font-size: 12px;
+  }
+
+.contenedor-externo {
+  padding: 20px;
+  text-align: left; 
+  background-color: pink;
+}
+
+.contenedor-externo h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.h2 {
+  font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.PM,
+  .AM {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background: rgb(3, 0, 0);
+    background: linear-gradient(0deg, rgba(3, 0, 0, 1) 0%, rgba(21, 2, 2, 1) 18%, rgba(189, 22, 22, 1) 83%, rgba(154, 42, 42, 1) 100%);
+    background-repeat: no-repeat;
+    margin: 25PX;
+  }
+
+  .horario {
+    margin-left: 50px;
+  }
+
+  .input-combos{
+  text-align: center;
+  margin-left: 99px;
+  }
+
+.su {
+  margin-bottom: 55px;
+  }
+
+ /*prueba*/
+
+
+ a.btn_atras, a.btn_validar {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color:green;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 70px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 70;
+  text-align: center;
+  width: 65px;
+}
+
+a.btn_atras:hover, a.btn_validar:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+  max-width: 65px;
+  border-radius: 15px;
+}
+
+a.btn_validar{
+  background-color: purple;
+  margin-right: 80px;
+}
+
+
+.ventana-emergente {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    max-height: 90%;
+    overflow-y: auto;
+   width: 100%;
+  }
+  
+  #check-combos {
+    display: none;
+  }
+  
+  .abrir-ventana {
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    margin: 20px;
+    text-align: right;
+    padding: 150px;
+  }
+  
+  #check-combos:checked ~ .ventana-emergente {
+    display: block;
+  }
+  
+  .combo {
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+  }
+  
+  .imagen-descripcion1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagen-descripcion1 img {
+    width: 220px;
+    height: 230px;
+    margin-right: 20px;
+    /*border-radius: 50%;*/
+    border-right: 2px solid black;
+  }
+  
+  .descripcion-imagen {
+    text-transform: uppercase;
+
+  }
+  
+  .contenido {
+    flex: 1;
+    font-size: 12px;
+    
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: red;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .input-cantidad {
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 165px;
+    margin-bottom: 5px;
+   
+    
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /*margin-left: 165px;
+    margin-right: 165px;*/
+  }
+  
+  .atras-button,
+  .validar-button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    /*margin: 70px;*/
+  }
+  
+  .atras-button {
+    background-color: #007BFF;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .validar-button {
+    background-color: #28A745;
+    text-align: right;
+    margin-right: 50px;
+  }
+  
+  h1 {
+    color: red;
+    text-align: left;
+  }
+  
+
+  .tex{
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+.contenedor-externo {
+  padding: 20px;
+  text-align: left; 
+  background-color: pink;
+}
+
+.contenedor-externo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:red;
+  text-align: left;
+}
+
+.can{
+  font-size: 14px;
+}

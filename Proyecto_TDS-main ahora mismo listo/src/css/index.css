@@ -1,0 +1,718 @@
+:root {
+  --color: #0016a7;
+  --fondo: #141414;
+  --logocolor: #E50914;
+}
+
+h1 {
+  color: #FFF;
+
+}
+
+label {
+  color: #FFF;
+}
+
+.NAV-Container a {
+  text-decoration: none;
+  color: #E50914;
+  font-size: 25px;
+}
+.Logo-Container{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+}
+.buscar img{
+  margin-right: 15px;
+}
+.buscar input{
+  font-size: x-large;
+}
+.Logo-Container a {
+  text-decoration: none;
+  color: #E50914;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--fondo);
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  height: 100%;
+ 
+
+}
+
+.NAV-Container {
+  width: 90%;
+  margin: auto;
+}
+
+.Logo-Container {
+  width: 94%;
+  margin: auto;
+}
+
+header {
+  padding: 30px 0;
+  background-color: #171616;
+}
+
+header .NAV-Container {
+  display: flex;
+  justify-content: space-between;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.header .Logo-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .Logo {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  color: var(--logocolor);
+  font-size: 40px;
+  text-decoration: none;
+}
+
+header nav a {
+  color: #AAA;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+header nav a:hover,
+header nav a.activo {
+  transition: 0.4s;
+  color: #ff9361;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #141414;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(41, 41, 41, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #ff5100;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ------- pagina principal ------- */
+
+.destacada {
+  padding-top: 4em;
+  font-size: 16px;
+  min-height: 40.62em;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../imgs/1366_2000.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: end;
+}
+
+.destacada .contenedor {
+  margin: 0 auto;
+  margin-bottom: 6.25em;
+}
+
+.destacada .titulo {
+  font-weight: 600;
+  font-size: 3.12em;
+  margin-bottom: 0.4em;
+}
+
+.destacada .descripcion {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.75em;
+  max-width: 50%;
+  margin-bottom: 1.25em;
+}
+
+.btn-container {
+  text-align: center;
+  width: 50%;
+}
+
+.btn-Ticket {
+  background-color: rgb(224, 16, 16);
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  position: relative;
+  right: 375px;
+  top: 50px;
+}
+
+.btn-Ticket:hover {
+  transition: 0.3s;
+  background-color: #d14200;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+
+
+
+/* ------- generos ------- */
+
+.pelicula:hover{
+    transform: scale(1.1);
+    
+}
+
+.genero{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 35px;
+  color: #000000;
+  margin-left: 10%;
+  font-size: 23px;
+  display: flex;
+  margin-bottom: 50px;
+
+}
+
+.pelicula{
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.5s;
+}
+.pelicula img{
+  
+  text-align: center;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+.contenedor-peliculas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+
+}
+
+.pelicula {
+  text-align: center;
+  margin: 10px;
+  flex: 0 0 250px;
+}
+
+.titulo-pelicula {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #d1d1d1;
+}
+.contenedor-padre{
+  background-repeat: no-repeat;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgba(3,0,0,1) 0%, rgba(21,2,2,1) 18%, rgba(189,22,22,1) 83%, rgba(154,42,42,1) 100%);
+  background-repeat: no-repeat;
+ 
+}
+
+/* ------- Footer ------- */
+
+footer {
+  background-color: #0e0e0e;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer-central {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.footer-links {
+  display: flex;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  display: flex;
+  margin-right: 12px;
+  padding: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.footer-right img {
+  height: 30px;
+  width: 35px;
+  padding-left: 4px;
+}
+.footer-right {
+  border-left: #ffffff solid 2px;
+  padding: 5px;
+}
+
+.footer-right a{
+  padding: 5px;
+}
+
+
+/* Cartelera */
+
+
+.contenedor-cartelera{
+  background-repeat: no-repeat;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgba(3,0,0,1) 0%, rgba(21,2,2,1) 18%, rgba(189,22,22,1) 83%, rgba(154,42,42,1) 100%);
+  background-repeat: no-repeat;
+  
+  
+
+}
+.movie-container {
+  display: flex;
+ 
+}
+.carteleras{
+  display: block;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.cartelera{
+  width:90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.resumen-pelicula{
+  background-color: #ffffff;
+  padding-top: 20px;
+  border-top: solid 2px;
+  border-radius: 20px;
+}
+
+
+.detallesPeliculas {
+  display: block;
+  width: 50%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.contenedor-horas {
+  padding: 10px;
+  width: 30%;
+  border-left:solid black 2px ;
+  
+}
+.contenedor-horas h3{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.horarios{
+
+  display: flex;
+  padding-top: 30px;
+  padding-right: 10px;
+  justify-content: space-between;
+  
+
+}
+.horas{
+  display: flex;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.horas a{
+
+  text-decoration: none;
+  padding: 10px;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgb(189, 187, 187) 0%, rgb(237, 235, 235) 18%, rgb(176, 54, 54) 83%, rgb(209, 89, 89) 100%);
+  color: black; 
+  border: 2px solid #893737;
+  transition: 2.0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.horas a:hover {
+  background: linear-gradient(0deg, rgb(112, 111, 111) 0%, rgb(111, 97, 97) 18%, rgb(148, 147, 147) 83%, rgb(203, 202, 202) 100%);
+  color: rgb(255, 255, 255);
+  
+}
+
+.precio{
+
+  display: flex;
+  align-items: end;
+  height: 45%;
+}
+.obtenerTaquilla{
+
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.comprarTaquilla{
+  
+  height: 60px;
+  padding: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgb(189, 187, 187) 0%, rgb(237, 235, 235) 18%, rgb(176, 54, 54) 83%, rgb(209, 89, 89) 100%);
+  border-radius: 15px;
+  color: #030303;
+  
+}
+.comprarTaquilla:hover{
+  background: linear-gradient(0deg, rgb(112, 111, 111) 0%, rgb(111, 97, 97) 18%, rgb(148, 147, 147) 83%, rgb(203, 202, 202) 100%);
+  color: rgb(255, 255, 255);
+}
+
+.contenedor-informacion{
+  height: 210px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  font-size: 22px;
+  
+}
+
+.informacion h3{
+  padding-bottom: 10px;
+}
+
+.informacion-pelicula{
+  
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.informacion-pelicula h2{
+
+  padding-bottom: 15px;
+}
+
+.seleccionFecha{
+  background-color: #1b1b1b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+.seleccionFecha select{
+  font-size: 25px;
+}
+
+.seleccionFecha h2{
+  color: #000000;
+  background-color: white;
+  padding: 5px;
+}
+.seleccionFecha p{
+  padding: 5px;
+}
+
+/* Informacion de pelicula */
+.informacion-general{
+  color: white;
+  background-repeat: no-repeat;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgba(3,0,0,1) 0%, rgba(21,2,2,1) 18%, rgba(189,22,22,1) 83%, rgba(154,42,42,1) 100%);
+  background-repeat: no-repeat;
+}
+.informacion-hijo{
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  padding-top: 40px;
+  
+}
+.informacion-pelicula{
+  width: 50%;
+}
+.imgPelicula{
+ width: 35%;
+
+}
+.comprar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+.comprar button{
+  margin-top: 80px;
+  width:80% ;
+}
+/* Proximamente */
+.proximamente{
+  display: flex;
+  justify-content: center;
+
+}
+.contenedor-proximamente{
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: start;
+}
+
+.fecha{
+  background-color: #d1d1d1;
+  font-size: 19px;
+  height:10% ;
+  border-radius: 20px;
+  width: 9%;
+  padding: 10px;
+  color: rgb(0, 0, 0) ;
+}
+
+.titulo-proximamente{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 23px;
+  
+
+
+}
+
+
+/*Ventana emergente tickets*/
+
+/* Estilos para la ventana emergente */
+.ventana-emergente-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ventana-emergente {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #503535;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+}
+
+.cerrar-ventana {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilos para la ventana emergente */
+.ventana-emergente-container {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ventana-emergente {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+max-width: 600px;
+}
+
+.ventana-emergente img {
+width: 100%;
+max-width: 200px; /* Ajusta el tamaño de la imagen según lo desees */
+}
+
+.horarios {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+
+.horario-btn {
+padding: 10px;
+background: rgb(3,0,0);
+background: linear-gradient(0deg, rgb(189, 187, 187) 0%, rgb(237, 235, 235) 18%, rgb(176, 54, 54) 83%, rgb(209, 89, 89) 100%);
+color: black; 
+border: 2px solid #893737;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+height: 30%;
+
+}
+
+.h1 {
+margin-top: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.cerrar-ventana {
+position: absolute;
+top: 5px;
+right: 5px;
+cursor: pointer;
+font-size: 18px;
+font-weight: bold;
+color: #555;
+}
+.validacion{
+display: flex;
+justify-content: space-between;
+
+
+width: 55%;
+}
+.validar{
+display: flex;
+justify-content: center;
+}
+.hora{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.btnHoras{
+display: flex;
+justify-content: space-between;
+width: 50%;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+
+}
+.btnContainer{
+width: 90%;
+display: flex;
+justify-content: space-between;
+
+}
+.validacion-btn{
+text-decoration: none;
+padding: 10px;
+background: rgb(3,0,0);
+background: linear-gradient(0deg, rgb(189, 187, 187) 0%, rgb(237, 235, 235) 18%, rgb(176, 54, 54) 83%, rgb(209, 89, 89) 100%);
+color: black; 
+border: 2px solid #893737;
+transition: 2.0;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+
+}
+.sucursal{
+text-align: center;
+
+}
+
+.sucursal select{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; ;
+}
+.checkbox{
+display: flex;
+justify-content: space-between;
+text-align: center;
+width: 40%;
+font-size: larger;
+}
+
+.checkbox-container{
+display: flex;
+justify-content: center;
+}
+
+.validacion-btn a:hover {
+background: linear-gradient(0deg, rgb(112, 111, 111) 0%, rgb(111, 97, 97) 18%, rgb(148, 147, 147) 83%, rgb(203, 202, 202) 100%);
+color: rgb(255, 255, 255);
+
+}
+.comboTitulo{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12;
+margin-top: 5px;
+}
+
+.ancla{
+  color: #000000;
+  }
+ 

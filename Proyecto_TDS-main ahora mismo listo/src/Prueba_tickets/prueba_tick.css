@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 14px;
+  border-radius: 15px;
+  border: black;
+   
+  }
+  
+  .ventana-emergente1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    max-height: 60%;
+    overflow-y: auto;
+    max-width: 850%;
+  }
+  
+  #check-tickets1 {
+    display: none;
+  }
+  
+  .abrir-ventana {
+    cursor: pointer;
+    font-size: 56px;
+    color: white;
+    text-decoration: underline;
+    margin: 20px;
+    text-align: right;
+    background-color: blue;
+    border-radius: 15px;
+   
+  }
+  
+  #check-tickets1:checked ~ .ventana-emergente1 {
+    display: block;
+  }
+  
+  .combo1 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .imagen-descripcion {
+    display: flex;
+  }
+  
+  .imagen-descripcion img {
+    width: 95%;
+    height: 745px;
+    /*border-radius: 50%;*/
+    border-radius: 15px;
+  }
+  
+  .descripcion-imagen {
+    text-transform: uppercase;
+
+  }
+  
+  .contenido1 {
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: red;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+  /*h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    
+  }*/
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .input-tickets {
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 15px;
+  }
+  
+  .botones1 {
+    display: flex;
+    justify-content: space-between;
+    /*text-align: center;*/
+    margin: 1px;
+    margin-top: 15px;
+  }
+  
+  .tex{
+    font-size: 12px;
+  }
+
+.contenedor-externo {
+  padding: 20px;
+  text-align: left; 
+  background-color: pink;
+}
+
+.contenedor-externo h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.h2 {
+  font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.PM,
+  .AM {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background: rgb(3, 0, 0);
+    background: linear-gradient(0deg, rgba(3, 0, 0, 1) 0%, rgba(21, 2, 2, 1) 18%, rgba(189, 22, 22, 1) 83%, rgba(154, 42, 42, 1) 100%);
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-left: 75px;
+  }
+
+button.AM:hover, button.PM:hover {
+  background-color:yellow;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+
+  .horario {
+    margin-left: 130px;
+    text-align: center;
+    padding-right: 120px;
+  }
+
+  .input-combos{
+  text-align: left;
+  margin-left: 185px;
+  }
+
+.su {
+  margin-bottom: 55px;
+  }
+
+ a.btn_atras, a.btn_validar {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color:green;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 85px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 10px;
+  text-align: center;
+  width: 65px;
+}
+
+a.btn_atras:hover, a.btn_validar:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+  max-width: 65px;
+  border-radius: 15px;
+}
+
+a.btn_validar{
+  background-color: purple;
+  margin-right: 10px;
+}
+
+
+.sucursal{
+  text-align: center;
+  
+  width: 70px;
+  }
+  
+  .sucursal select{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif; ;
+margin-left: 180px;
+  width: 110px;
+  margin-top: 25px;
+  }
+
+  a.btn_atras{
+    background-color: purple;
+    margin-left: 70px;
+  }
+  #si,#no{
+    text-align: center;
+    margin-left: 165px;
+    margin: 5px;
+  }
+
+  .agregar{
+   margin-left: 0px;
+    }
+
+   h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 50px;
+      }
